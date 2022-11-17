@@ -1,5 +1,29 @@
-body
-.container {
+.wbox {
+    width: 12.5%;
+    height: 12.5%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+}
+
+.bbox {
+    background-color: gray;
+    width: 12.5%;
+    height: 12.5%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+}
+.board {
+    width: calc(100vmin);
+    height: calc(100vmin);
     display: flex;
-    background-color: black;
+    flex-wrap: wrap;
+}
+.row {
+    height: 12.5%;
+}
+body {
+    width: 100vw;
+    height: 100vh;
 }
