@@ -16,16 +16,27 @@
     font-size: 50px;
     text-align: center;
 }
+
 .board {
     width: calc(100vmin);
     height: calc(100vmin);
     display: flex;
     flex-wrap: wrap;
 }
+
 .row {
     display: flex;
     width: calc(100vmin);
 }
+.bbox {
+    width: 100px;
+    height: 100px;
+}
+.wbox {
+    width: 100px;
+    height: 100px;
+}
+
 body {
     width: 100vw;
     height: 100vh;
