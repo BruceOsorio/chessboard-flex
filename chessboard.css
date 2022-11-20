@@ -28,14 +28,20 @@
     display: flex;
     width: calc(100vmin);
 }
+
 .bbox {
     width: 100px;
     height: 100px;
 }
+
 .wbox {
     width: 100px;
     height: 100px;
 }
+
+/* .container {
+    display: grid;
+} */
 
 body {
     width: 100vw;
